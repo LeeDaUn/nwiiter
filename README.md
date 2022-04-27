@@ -2,7 +2,13 @@
 
 
 ## [04월 27일] ##
+### 수업내용
+파이어베이스를 통한 로그인 및 회원가입 처리<br>
+createUserWithEmailAndPassword 인자로 전달받은 이메일,비밀번호를 파이어베이스 db에 저장<br>
+signInWithEmailAndPassword 인자로 전달받은 이메일,비밀번호를 파이어베이스 db전달 확인 후 로그인<br>
 
+
+p78~p95 액션2까지 진행
 
 
 ## [04월 13일] ##
@@ -11,9 +17,9 @@
 npm install --save react@^17.0.2 react-dom@17.0.2
 
 ### 수업내용
-1. 파이어베이스 깃허브 연동
-2. Auth 코드 입력 > Login form 구현
-2-1. event.preventDefault() 사용시 새로고침 문제 방지 가능 
+1. 파이어베이스 깃허브 연동<br>
+2. Auth 코드 입력 > Login form 구현<br>
+2-1. event.preventDefault() 사용시 새로고침 문제 방지 가능<br> 
 P77 까지 진행
 
 
