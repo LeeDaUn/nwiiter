@@ -1,6 +1,17 @@
 # 수업내용
 
 
+## [05월 04일] ##
+1. 저번 학습에 못따라왔을경우<br>
+// catch 삭제<br>
+npm cache clean --force<br>
+// node module 설치<br>
+npm install<br>
+<br>
+
+2. p96 Contiue with Google, Continue with Github 팝업창 연동<br>
+async await 팝업창이 올라오는 속도 제어<br>
+
 ## [04월 27일] ##
 ### 수업내용
 파이어베이스를 통한 로그인 및 회원가입 처리<br>
