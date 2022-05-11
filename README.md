@@ -1,5 +1,15 @@
 # 수업내용
 
+## [05월 11일] ##
+
+### fbase import 오류 8버전 이상이면<br>
+import "firebase/compat/firestore"<br>
+
+1. Home.js 파이어스토어에 데이터 저장하는 코드 작성 p115 <br>
+async-await 문 사용 <br>
+2. Home.js 파이어스토어에서 문서 읽어오기 p116 <br>
+실제호출 => useEffect
+
 
 ## [05월 04일] ##
 1. 저번 학습에 못따라왔을경우<br>
