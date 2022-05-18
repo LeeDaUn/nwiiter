@@ -1,5 +1,14 @@
 # 수업내용
 
+## [05월 18일] ##
+1. 트위터 수정,삭제 기능 추가<br>
+
+실시간 데이터베이스 get함수 => onSnapShot함수로 변경 <br>
+
+<li>수정, 삭제를 위해 Nweet.js 추가<br>
+nweet.creatorId === userObj.uid : 트윗이 uid와 로그인한 사용자의 uid를 비교 연산자로 비교 true, false값 출력
+
+
 ## [05월 11일] ##
 
 ### fbase import 오류 8버전 이상이면<br>
