@@ -9,7 +9,7 @@ Home.js input태그 이용 => 파일의 배열을 이용하여 등록<br>
 reader. 함수 이용하여 사진 출력<br>
 파일 취소 clear => onClearAttachment 사용 <br>
 
-<li>06-2 사진 저장 기능 구현 </li>
+<li>06-2 사진 저장 기능 구현 다음주 진행</li>
 
 
 ## [05월 18일] ##
