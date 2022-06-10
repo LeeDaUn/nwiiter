@@ -1,6 +1,27 @@
 # 수업내용
 
 
+## [06월 08일] ##
+<li> firebase 액세스 권한오류시</li>
+rules_version = '2';</br>
+service firebase.storage {</br>
+  match /b/{bucket}/o {</br>
+    match /{allPaths=**} {</br>
+      allow read, write: if false;</br>
+    }</br>
+  }</br>
+}</br>
+
+<li>06-2 사진 저장 기능 만들기</li>
+고유 식별자 uuid 라이브러리 설치<br>
+npm install uuid 작성시 package.json에 "uuid": "^8.3.2" 생성<br>
+Home.js에 uuid import<br>
+
+<li>07-1 필터링 기능 구현</li>
+
+1. useEffect 첫번째 인자로 넘겨준 함수가 실행
+2. 파이어베이스 제공 쿼리함수 where 사용
+
 ## [05월 25일] ##
 <li>05장 내용 복습</li>
 
