@@ -1,5 +1,16 @@
 # 수업내용
 
+## [06월 14일] ##
+<li>07-2 프로필 페이지 기능 보완하기</li>
+userObj.displayName으로 기본값 저장 => newDisplayName 변경<br>
+updateProfile 함수 사용하여 displayName 변경<br>
+
+<li>07-3 프로필 실시간 업데이트하기</li>
+refreshUser 함수 boolean 이용하여 isLoggedIn 프롭스 적용<br>
+
+<li>08-1 코드 정리</li>
+onSubmit, onChange, onFileChange, onClearAttachment NweetFactory 컴포넌트로 옮기기<br>
+AppRouter 컴포넌트 => isLoggedIn 프롭스 boolean 덕에 따로 관리x<br>
 
 ## [06월 08일] ##
 <li> firebase 액세스 권한오류시</li>
@@ -7,10 +18,7 @@ rules_version = '2';</br>
 service firebase.storage {</br>
   match /b/{bucket}/o {</br>
     match /{allPaths=**} {</br>
-      allow read, write: if false;</br>
-    }</br>
-  }</br>
-}</br>
+      allow read, write: if false;}}}</br>
 
 <li>06-2 사진 저장 기능 만들기</li>
 고유 식별자 uuid 라이브러리 설치<br>
